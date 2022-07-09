@@ -2,7 +2,11 @@ import { useEffect } from 'react';
 
 function App() {
     const getCurrentLocation = () => {
-        console.log('getCurrentLocation');
+        navigator.geolocation.getCurrentPosition((position) => {
+            let lat = position.coords.latitude;
+            let lon = position.coords.longitude;
+            console.log('현재위치', lat, lon);
+        });
     };
 
     useEffect(() => {
