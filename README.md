@@ -8,7 +8,7 @@
 
 ### 소개
 
-> 각 지역마다 오늘의 날씨를 알려주는 웹을 React를 사용해 구현하였습니다. 개발스택은 HTML, styled-component, JavaScript, React를 사용하였으며 styled-component 연습과 api를 fetch하는 것을 연습하며 토이 프로젝트를 진행하였습니다...
+> 각 지역마다 오늘의 날씨를 알려주는 웹을 React를 사용해 구현하였습니다. 개발스택은 HTML, styled-component, JavaScript, React를 사용하였으며 styled-component 연습과 api를 fetch하는 것을 연습하며 토이 프로젝트를 진행하였습니다.
 
 <br>
 
