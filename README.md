@@ -24,6 +24,6 @@ URL : [https://whatisweather001.herokuapp.com/:elephant:](https://whatisweather0
 
 ### 느낀점
 
--   JSON 데이터를 자동 변환해줘서 편하다.
+-   fetch는 JSON 데이터를 변환해야 하지만 axios는 JSON 데이터를 자동 변환해줘서 편하다.
 -   여기 실습에서는 나오지 않지만 axios를 사용하면 response timeout 처리 가능하다.
--   브라우저 호환성이 뛰어나다.
+-   axios가 브라우저 호환성이 뛰어나다.
