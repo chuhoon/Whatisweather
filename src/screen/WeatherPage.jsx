@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import LocationLogo from '../assets/location.svg'
-import CloudyImg from '../assets/cloudy.svg' 
 import LocationButton from '../components/LocationButton'
 
 const WeatherColSection = styled.section`
@@ -85,6 +84,7 @@ const WeatherColBox = styled.div`
 
 // destructoring
 const WeatherPage = ({weather, cities, setCity}) => {
+	const weatherSrc= `http://openweathermap.org/img/w/${weather.weather[0].icon}.png`
 	return (
 		<>
 			<WeatherColSection>
@@ -94,7 +94,7 @@ const WeatherPage = ({weather, cities, setCity}) => {
 				</LocationRowBox>
 				<WeatherRowBox>
 					<WeatherColBox>
-						<CloudyLogoImg src={CloudyImg}/>
+						<CloudyLogoImg src={weatherSrc} />
 						<CurrentDate>Monday, 17 May</CurrentDate>
 					</WeatherColBox>
 					<WeatherColBox>

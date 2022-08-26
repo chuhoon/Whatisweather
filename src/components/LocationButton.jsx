@@ -20,7 +20,6 @@ const LocationBtn = styled.button`
 `
 
 const LocationButton = ({cities, setCity}) => {
-  console.log(cities);
 	return (
     <>
       <BtnFlexBox>

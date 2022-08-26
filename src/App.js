@@ -22,8 +22,6 @@ function App() {
         ['Jeju', '제주'],
     ];
 
-    console.log(weather);
-
     const getCurrentLocation = () => {
         navigator.geolocation.getCurrentPosition((position) => {
             let lat = position.coords.latitude;
