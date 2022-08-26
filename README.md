@@ -2,7 +2,7 @@
 
 지역마다 오늘의 날씨를 알려주는 웹 제작
 
-[배포링크:elephant:]()
+URL : [https://whatisweather001.herokuapp.com/:elephant:](https://whatisweather001.herokuapp.com/)
 
 ![오늘의 날씨 이미지](https://user-images.githubusercontent.com/68219145/186843068-15a3345f-95b3-46a2-8b8f-f5e3d6a8f782.gif)
 
