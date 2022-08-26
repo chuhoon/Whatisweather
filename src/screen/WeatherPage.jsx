@@ -59,6 +59,11 @@ const TempSpan = styled.span`
 `
 
 const TodayWeatherSpan = styled.span`
+	display: block;
+	width: 300px;
+	white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 38px;
@@ -80,18 +85,11 @@ const WeatherColBox = styled.div`
 
 // destructoring
 const WeatherPage = ({weather, cities, setCity}) => {
-	console.log("weather?", weather);
-	console.log('cities', cities);
 	return (
 		<>
 			<WeatherColSection>
 				<LocationRowBox>
 					<LocationLogoImg src={LocationLogo} />
-					{/*
-					useEffect는 UI가 렌더링된 후에 실행 되는데
-					weather.name의 초기값이 null 이므로 에러가 발생한다.
-					따라서 삼항연산자를 사용해 weather가 있다면 뽑아달라는 문법을 사용하였다.
-					*/}
 					<LocationSpan>{weather?.name}</LocationSpan>
 				</LocationRowBox>
 				<WeatherRowBox>
